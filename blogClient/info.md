@@ -63,7 +63,6 @@
     <!--$ npm i mongoose -->
     <!--$ npm install react-circular-progressbar -->
 
-
 2. VS CODE Extentions:
     ES+7
     Multiple cursor case preserve
@@ -71,12 +70,15 @@
     Tailwind Fold (toggle: "Control-Option-A")
 
 3. GitHub
+
+    ```Linux
     git init
     git add .
     git commit -m "...."
     git remote add origin https://github.com/mcc1461/mcc-mern-blog.git
     git branch -M main
     git push -u origin main
+    ```
 
 4. Routes
-    BrowserRouter-Routes-Route from react-router-dom 
+    BrowserRouter-Routes-Route from react-router-dom
