@@ -1,14 +1,19 @@
+import Logo from "../assets/MusCo5.png";
+
 export default function About() {
   return (
     <div className="flex items-center justify-center min-h-screen">
       <div className="max-w-2xl p-3 mx-auto text-center">
         <div>
-          <h1 className="text-3xl font-semibold text-center font my-7">
-            About Me
+          <img src={Logo} alt="MusCo Blog" className="w-64 mx-auto" />
+        </div>
+        <div>
+          <h1 className="my-3 text-3xl font-semibold text-center text-orange-700">
+            MusCo Blog
           </h1>
           <div className="flex flex-col gap-6 text-gray-500 text-md">
             <p className="text-justify">
-              Welcome to my blog! I'm Mustafa COSKUNCELEBI, a passionate web
+              Welcome to MusCo Blog! I'm Mustafa COSKUNCELEBI, a passionate web
               developer with a background as a military officer and a degree in
               Management Information Systems.
             </p>
@@ -24,7 +29,7 @@ export default function About() {
             </p>
 
             <p className="text-justify">
-              I just finished a full-stack development course where I improved
+              I finished a full-stack development course where I improved
               my web programming abilities, concentrating on JavaScript,
               React.js, and Node.js. I've successfully finished a number of
               front-end and back-end projects, showcasing my ability to create

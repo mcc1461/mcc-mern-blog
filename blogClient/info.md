@@ -82,3 +82,9 @@
 
 4. Routes
     BrowserRouter-Routes-Route from react-router-dom
+
+    Colors:
+    "#1C1678"
+    "#8576FF"
+    "#7BC9FF"
+    "#A3FFD6"
