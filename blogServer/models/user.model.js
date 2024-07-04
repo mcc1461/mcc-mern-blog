@@ -26,9 +26,10 @@ const userSchema = new mongoose.Schema(
       default: false,
     },
   },
-  { timestamps: true }
+  { timestamps: true } //Time of creation and time of update
 );
 
+// Mongoose add s to the collection name and lowercase it automatically
 const User = mongoose.model('User', userSchema);
 
 export default User;

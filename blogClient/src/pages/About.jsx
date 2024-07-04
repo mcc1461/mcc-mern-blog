@@ -8,7 +8,7 @@ export default function About() {
           <img src={Logo} alt="MusCo Blog" className="w-64 mx-auto" />
         </div>
         <div>
-          <h1 className="my-3 text-3xl font-semibold text-center text-orange-700">
+          <h1 className="my-3 text-3xl font-semibold text-center" style={{color:"#1C1678"}}>
             MusCo Blog
           </h1>
           <div className="flex flex-col gap-6 text-gray-500 text-md">

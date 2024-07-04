@@ -72,7 +72,7 @@ export default function DashPosts() {
   };
 
   return (
-    <div className='table-auto overflow-x-scroll md:mx-auto p-3 scrollbar scrollbar-track-slate-100 scrollbar-thumb-slate-300 dark:scrollbar-track-slate-700 dark:scrollbar-thumb-slate-500'>
+    <div className='p-3 overflow-x-scroll table-auto md:mx-auto scrollbar scrollbar-track-slate-100 scrollbar-thumb-slate-300 dark:scrollbar-track-slate-700 dark:scrollbar-thumb-slate-500'>
       {currentUser.isAdmin && userPosts.length > 0 ? (
         <>
           <Table hoverable className='shadow-md'>
@@ -97,7 +97,7 @@ export default function DashPosts() {
                       <img
                         src={post.image}
                         alt={post.title}
-                        className='w-20 h-10 object-cover bg-gray-500'
+                        className='object-cover w-20 h-10 bg-gray-500'
                       />
                     </Link>
                   </Table.Cell>
@@ -116,7 +116,7 @@ export default function DashPosts() {
                         setShowModal(true);
                         setPostIdToDelete(post._id);
                       }}
-                      className='font-medium text-red-500 hover:underline cursor-pointer'
+                      className='font-medium text-red-500 cursor-pointer hover:underline'
                     >
                       Delete
                     </span>
@@ -136,7 +136,7 @@ export default function DashPosts() {
           {showMore && (
             <button
               onClick={handleShowMore}
-              className='w-full text-teal-500 self-center text-sm py-7'
+              className='self-center w-full text-sm text-teal-500 py-7'
             >
               Show more
             </button>
@@ -154,7 +154,7 @@ export default function DashPosts() {
         <Modal.Header />
         <Modal.Body>
           <div className='text-center'>
-            <HiOutlineExclamationCircle className='h-14 w-14 text-gray-400 dark:text-gray-200 mb-4 mx-auto' />
+            <HiOutlineExclamationCircle className='mx-auto mb-4 text-gray-400 h-14 w-14 dark:text-gray-200' />
             <h3 className='mb-5 text-lg text-gray-500 dark:text-gray-400'>
               Are you sure you want to delete this post?
             </h3>

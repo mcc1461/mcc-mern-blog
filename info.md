@@ -88,3 +88,38 @@
     "#8576FF"
     "#7BC9FF"
     "#A3FFD6"
+
+5. Create NAVBAR with routes
+
+6. Create and run the SERVER
+
+    ````Linux
+    npm init -y
+    npm i express
+    npm i mongoose
+    npm i dotenv
+    npm i cookie-parser
+    npm i bcryptjs
+    npm i jsonwebtoken
+    npm nodemon
+    ````
+
+7. Change the type to module in package.json
+    "type": "module"
+    "scripts": {
+        "dev":"nodemon blogServer/index.js",
+        "start":"node blogServer/index.js"
+    }
+
+8. gitignore from toptal.com (for node)
+
+9. MongoDB create project
+
+10. Create .env  variables include: (process.env.MONGODB)
+    MONGODB=...
+
+11. MVC : models > controllers > routes [user,  ]
+
+12. Create a test API route (For testing INSOMNIA or POSTMAN can be used)
+
+13. .
